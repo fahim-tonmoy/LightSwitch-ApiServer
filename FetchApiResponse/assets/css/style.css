@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+  /* position: relative; */
+}
+.fetched__Content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  padding: 20px;
+}
+.card {
+  width: 250px;
+  height: 220px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  /* border: 1px solid gray; */
+  box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+h3 {
+  font-size: 15px;
+}
